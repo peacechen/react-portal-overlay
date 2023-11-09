@@ -1,13 +1,15 @@
 # React Portal Overlay
 
-[![NPM](https://img.shields.io/npm/v/react-portal-overlay)](https://www.npmjs.com/package/react-portal-overlay) [![License](https://img.shields.io/npm/l/react-portal-overlay)](https://github.com/seaneking/react-portal-overlay/blob/master/LICENSE.md)
+[![NPM](https://img.shields.io/npm/v/@peacechen/react-portal-overlay)](https://www.npmjs.com/package/@peacechen/react-portal-overlay) [![License](https://img.shields.io/npm/l/react-portal-overlay)](https://github.com/seaneking/react-portal-overlay/blob/master/LICENSE.md)
+
+This is a fork of https://madeleineostoja.github.io/react-portal-overlay and published as a separate package on [npmjs.com](https://www.npmjs.com/package/@peacechen/react-portal-overlay) to unlock the peer dependencies.
 
 A lightweight and performant fullscreen overlay component using React portals to render anywhere you need them to
 
 ## Installation
 
 ```sh
-npm i react-portal-overlay
+npm i @peacechen/react-portal-overlay
 ```
 
 ## Usage
@@ -16,7 +18,7 @@ See the [API Docs](https://madeleineostoja.github.io/react-portal-overlay/) for 
 
 ```js
 import React, { useState } from 'react';
-import { Overlay } from 'react-portal-overlay';
+import { Overlay } from '@peacechen/react-portal-overlay';
 
 export default () => {
   const [open, setOpen] = useState(false);
